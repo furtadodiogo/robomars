@@ -18,8 +18,6 @@ Exemplo: Se o robô está na posição `(0,0,N)`, o comando `MML` fará ele cheg
 
 ## Executando
 
-### Via JAR
-
 Primeiro vamos precisar executar o comanndo para que o maven baixe as dependencias necessárias para o projeto e faça o build da aplicação. Acesse a raiz do projeto e execute:
 
 ```sh
@@ -31,4 +29,3 @@ após finalizar acesse a pasta target e execute o **jar** gerado com o seguinte 
 ```sh
 #/mars-robot/target/
 $  java -jar mars-robot-0.0.1-SNAPSHOT.jar
-```
